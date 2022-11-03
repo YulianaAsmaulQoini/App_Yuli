@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView|always" />
+    <group
+        android:menuCategory="container">
+        <item
+            android:id="@+id/menu1"
+            android:title="Akun"/>
+        <item
+            android:id="@+id/menu2"
+            android:title="Struk"/>
+        <item
+            android:id="@+id/menu3"
+            android:title="Pengaturan"/>
+        <item
+            android:id="@+id/menu4"
+            android:title="Tentang"/>
+        <item
+            android:id="@+id/menu5"
+            android:title="Barang"/>
+    </group>
+
+
+
+
+<!--    <item android:id="@+id/beranda"-->
+<!--        android:title="Tulis"/>-->
+<!--    <item android:id="@+id/struk"-->
+<!--        android:title="Struk"/>-->
+<!--    <item android:id="@+id/pengaturan"-->
+<!--        android:title="Pengaturan"/>-->
+<!--    <item android:id="@+id/tentang"-->
+<!--        android:title="Tentang"/>-->
+</menu>

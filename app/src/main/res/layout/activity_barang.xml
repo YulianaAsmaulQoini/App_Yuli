@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".Barang">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_container">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:id="@+id/menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="DAFTAR BARANG SEMBAKO"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/kecap"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/menu"
+                    android:layout_marginTop="37dp"
+                    android:src="@drawable/kecap" />
+
+                <TextView
+                    android:layout_below="@+id/kecap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Kecap"/>
+
+                <ImageView
+                    android:id="@+id/mie_instan"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/kecap"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="-151dp"
+                    android:src="@drawable/mie_instan" />
+                <TextView
+                    android:layout_below="@+id/mie_instan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="220dp"
+                    android:text="@string/Mie_Instan"/>
+
+                <ImageView
+                    android:id="@+id/minyak"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/mie_instan"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/minyak" />
+                <TextView
+                    android:layout_below="@+id/minyak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/minyak"/>
+
+                <ImageView
+                    android:id="@+id/susu"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/minyak"
+                    android:layout_marginTop="-151dp"
+                    android:layout_marginLeft="220dp"
+                    android:src="@drawable/susu" />
+                <TextView
+                    android:layout_below="@+id/susu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="220dp"
+                    android:text="@string/Susu"/>
+
+                <ImageView
+                    android:id="@+id/sarden"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/susu"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/sarden" />
+                <TextView
+                    android:layout_below="@+id/sarden"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sarden"/>
+
+                <ImageView
+                    android:id="@+id/tepung_terigu"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/sarden"
+                    android:layout_marginTop="-151dp"
+                    android:layout_marginLeft="220dp"
+                    android:src="@drawable/tepung_terigu" />
+                <TextView
+                    android:layout_below="@+id/tepung_terigu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="220dp"
+                    android:text="@string/Tepung_Terigu"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="Keluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="650dp"
+                    android:layout_alignParentBottom="true"
+                    android:onClick="keluar"
+                    android:id="@+id/btnkeluar" />
+            </RelativeLayout>
+        </FrameLayout>
+    </ScrollView>
+</ScrollView>
